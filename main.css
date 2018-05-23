@@ -1,0 +1,74 @@
+/*22C-2	.*/
+.text-font {
+  /*23D-3	font-size*/
+  font-size: 20px;
+  /*23D-2	color*/
+  color: darkblue;
+  /*23D-1	font-weight*/
+  font-weight: 700;
+  /*25C-2	absolute*/
+  position: absolute;
+  left: 0;
+  /*30E	text effects*/
+  text-shadow: 2px 2px;
+}
+
+/*22C-3	" "*/
+#main-div span {
+    font-size: 30px;
+    color: salmon;
+}
+
+/*22C-1	#*/
+#main-div {
+  /*25F	display && 27G	display: flex*/
+  display: flex;
+  /*27C	justify-content*/
+  justify-content: center;
+  /*27D	align-items*/
+  align-items: center;
+  /*27F	flex-direction*/
+  flex-direction: column;
+  /*27E	flex-wrap*/
+  flex-wrap: nowrap;
+  /*23E	background-color && 30D	gradients*/
+  background: linear-gradient(grey, yellow);
+  /*25C-1	relative*/
+  position: relative;
+}
+
+#main-span {
+  /*25C-3	fixed*/
+  position: fixed;
+}
+
+#body-div {
+  width: 250px;
+  height: 250px;
+
+  /*24E	padding*/
+  padding: 50px;
+  /*24C	margin*/
+  margin: 50px;
+  /*24D	border*/
+  border: 2px solid black;
+  /*24F	box-sizing*/
+  box-sizing: border-box;
+  /*25D	float*/
+  float: right;
+  /*23F	background-image*/
+  background-image: url("http://i3.kym-cdn.com/photos/images/newsfeed/000/029/992/trogdor.png");
+  /*30C	box-shadow*/
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+/*22C-4	>*/
+#body-div > img {
+  width: 100%;
+  height: 100%;
+}
+
+/*22C-5	+*/
+ul + li {
+  font-family: cursive;
+}
